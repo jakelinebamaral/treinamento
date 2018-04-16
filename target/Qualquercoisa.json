@@ -1,0 +1,63 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Realizar Consulta",
+        "description": "",
+        "id": "projeto-utilizado-para-criar-uma-rotina-de-teste-do-banco-ripley;realizar-consulta",
+        "after": [
+          {
+            "result": {
+              "duration": 428237647,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseTest.finaliza()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15821067981,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "testeRipley - Acessar a tela inicial",
+            "match": {
+              "location": "Teste.acessarPagina()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6777271189,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "testeRipley - clicar no link1",
+            "match": {
+              "location": "Teste.link1()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@testeRipley"
+          }
+        ]
+      }
+    ],
+    "name": "Projeto utilizado para criar uma rotina de teste do banco ripley",
+    "description": "",
+    "id": "projeto-utilizado-para-criar-uma-rotina-de-teste-do-banco-ripley",
+    "keyword": "Feature",
+    "uri": "src/test/java/execution/testesRipley.feature"
+  }
+]
